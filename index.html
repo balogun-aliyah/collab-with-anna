@@ -1,25 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <title>SHEIN Mockup Landing Page</title>
+  <link rel="stylesheet" href="./collab-with-anna/style.css">
 </head>
 <body>
+
+  <header class="main-header">
+    <div class="logo">SHEIN</div>
     
-<!-- ========================================== -->
-    <!-- ALIYAH'S WORK: HEADER & HERO BANNER        -->
-    <!-- ========================================== -->
-    <header class="shein-header">
-        <!-- Aliyah, type all your header HTML right here -->
-    </header>
+    <div class="search-container">
+      <input type="text" placeholder="Squishy...">
+      <button class="search-btn">🔍</button>
+    </div>
+    
+    <div class="header-icons">
+      <span>👤</span>
+      <span>🛒 0</span>
+      <span>❤️ 0</span>
+      <span>🎧</span>
+      <span>🌐</span>
+    </div>
+  </header>
 
+  <div class="nav-container">
+    <nav class="nav-bar">
+      <div class="dropdown-wrapper">
+        <a href="#" class="bold-link">Categories ▾</a>
+        
+        <div class="simple-dropdown">
+          <ul class="dropdown-links">
+            <li class="active-tab">Just for You</li>
+            <li>New In</li>
+            <li>Sale</li>
+            <li>Women Clothing</li>
+            <li>Beachwear</li>
+            <li>Kids</li>
+          </ul>
+          
+          <div class="dropdown-preview">
+            <h4>🔥 Trends Right Now</h4>
+            <div class="preview-box">
+              <img src="https://unsplash.com" alt="Trend 1">
+              <span>Trendy Sets</span>
+            </div>
+            <div class="preview-box">
+              <img src="https://unsplash.com" alt="Trend 2">
+              <span>Summer Fits</span>
+            </div>
+          </div>
+        </div>
+      </div>
 
-    <!-- ========================================== -->
-    <!-- ANNA'S WORK: FOOTER & CATEGORIES           -->
-    <!-- ========================================== -->
-    <footer class="shein-footer">
-        <!-- Anna, type all your footer HTML right here -->
-    </footer>
+      <a href="#">Just for You</a>
+      <a href="#">New In</a>
+      <a href="#">Sale</a>
+      <a href="#">Women Clothing</a>
+      <a href="#">Beachwear</a>
+      <a href="#">Kids</a>
+      <a href="#">Shoes</a>
+      <a href="#">Home & Living</a>
+      <a href="#">Beauty & Health</a>
+      <a href="#">Jewelry & Accs</a>
+    </nav>
+
+    <div class="scroll-arrow-indicator">❯</div>
+  </div>
+
+  <section class="trends-banner">
+    <div class="trends-sidebar">
+      <h2>Trends</h2>
+      <p>#SexyOutfits</p>
+    </div>
+    
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="https://unsplash.com" alt="Outfit 1">
+        <span class="price">$35.00</span>
+      </div>
+      <div class="product-card">
+        <img src="https://unsplash.com" alt="Outfit 2">
+        <span class="price">$12.20</span>
+      </div>
+      <div class="product-card">
+        <img src="https://unsplash.com" alt="Outfit 3">
+        <span class="price">$10.40</span>
+      </div>
+      <div class="product-card">
+        <img src="https://unsplash.com" alt="Outfit 4">
+        <span class="price">$9.10</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="circle-categories">
+    <div class="circle-item">
+      <img src="https://unsplash.com" class="circle-img" alt="Women">
+      <p>Women</p>
+    </div>
+    <div class="circle-item">
+      <img src="https://unsplash.com" class="circle-img" alt="Curve">
+      <p>Curve</p>
+    </div>
+    <div class="circle-item">
+      <div class="circle-img empty"></div>
+      <p>Kids</p>
+    </div>
+    <div class="circle-item">
+      <div class="circle-img empty"></div>
+      <p>Men</p>
+    </div>
+  </section>
+
+  <section class="deals-container">
+    <div class="deal-block">
+      <div class="block-header">
+        <h3>Super Deals</h3>
+        <a href="#" class="see-all">See All ➔</a>
+      </div>
+      
+      <div class="deal-content">
+        <div class="deal-card-main">
+          <img src="https://unsplash.com" alt="Flash Sale Dress">
+          <div class="deal-badge">Flash Sale</div>
+          <p class="deal-price">$4.37</p>
+        </div>
+        
+        <div class="deal-card-sub">
+          <img src="https://unsplash.com" alt="Sunglasses">
+          <div class="deal-badge">Hot Deal</div>
+          <p class="deal-price">$0.80</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="deal-block">
+      <div class="block-header">
+        <h3>Trends</h3>
+        <a href="#" class="see-all">See All ➔</a>
+      </div>
+      
+      <div class="deal-content">
+        <div class="deal-card-main">
+          <img src="https://unsplash.com" alt="Party Dress">
+          <div class="deal-badge">#PartyDress</div>
+          <p class="deal-price">$12.07</p>
+        </div>
+        
+        <div class="deal-card-sub">
+          <img src="https://unsplash.com" alt="Handbag">
+          <div class="deal-badge">#ModernBags</div>
+          <p class="deal-price">$16.58</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
 </body>
 </html>
